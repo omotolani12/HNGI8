@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-b-v3=rvkmr9+3huuo)nigaq(bqu*bc86ux2ocrov(+!wd2#b)b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True # os.getenv("DJANGO_ENV") == "production"
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tolasblog.heroku.com']
 
 
 # Application definition
