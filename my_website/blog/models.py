@@ -16,3 +16,11 @@ class Post(models.Model):
 
 
 # Create your models here.
+class ContactMessage(models.Model):
+    from_email = models.CharField(max_length=30)
+    subject = models.CharField(max_length=30)
+    message = models.TextField()
+
+    def __str__(self):
+        return self.subject
+
