@@ -1,5 +1,5 @@
 body{
-	background-color:#F8F8F8!important;
+	background-color:#9fc5e4!important;
 }
 
 #profile-wrapper{
@@ -30,6 +30,6 @@ ul{
 	height: 40px;
 }
 .contact-form {
-	margin: 100px;
-	width: 1200px;
+	margin: 80px;
+	width: 80px;
 }
